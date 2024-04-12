@@ -1,0 +1,36 @@
+/* h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    letter-spacing: 10px;
+    
+}
+button{
+    background-color: rgb(198, 198, 224);
+    color:black;
+}
+p{
+    background-color: black;
+    letter-spacing: 2.cap;
+    color:white;
+    text-align: justify;
+}
+h1{
+    background-color: blue;
+    color:white;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+} */
+h1{
+    font-family: league sparten,fantasy;
+    text-align: center;
+}
+button:hover{
+    background-color: green;
+    color:black;
+    
+}
+button{
+    margin-left: 50%;
+}

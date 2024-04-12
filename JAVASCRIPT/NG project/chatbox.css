@@ -1,0 +1,51 @@
+#outer{
+  /* background-image: url(https://media.istockphoto.com/id/690445882/vector/social-media-blue-seamless-pattern.jpg?s=612x612&w=0&k=20&c=bashqfz8-1B2zRqj2GbOmQUupsWQyaIyzPeajhmRaWY=); */
+  height: 85vh;
+  width:50%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 2px solid  black;
+}
+.inner{
+  width:100%;
+  height: 10%;
+  background-color:#323f4b;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+}
+
+.main-data{
+  height:90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://media.istockphoto.com/id/1403848173/vector/vector-online-chatting-pattern-online-chatting-seamless-background.jpg?s=612x612&w=0&k=20&c=W3O15mtJiNlJuIgU6S9ZlnzM_yCE27eqwTCfXGYwCSo=);
+
+}
+.right{
+  height:10%;
+  width: 90%;
+  background-color: #47a3f3;
+  margin: auto;
+  display: flex;
+  justify-content:end;
+  align-items:center;
+  color: white;
+  border-radius:10px  10px 0px 10px;
+  text-align: right;
+}
+.main{
+  height: 10%;
+  width:90%;
+  margin: auto;
+  background-color: #52606d;
+  border-radius:10px  10px  10px 0px;
+  display: flex;
+  justify-content:start;
+  align-items:center;
+  color:white;
+
+}

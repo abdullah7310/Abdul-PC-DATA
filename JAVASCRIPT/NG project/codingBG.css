@@ -1,0 +1,25 @@
+.outer{
+  height:90vh;
+  width:20vw;
+  margin: auto;
+  display: flex;
+  background-color: #00000080;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://img.freepik.com/free-vector/matrix-style-binary-code-digital-background-with-falling-numbers_1017-25336.jpg?w=1380&t=st=1705491730~exp=1705492330~hmac=8f331dd23ea552867ce586cfa0edf9f82b6c98229fb8f861aa174b122bc0e491);
+  background-size: cover;
+
+}
+.inner{
+  width: 60%;
+  height: 40%;
+  border: 5px solid #48ee59;
+  
+
+}
+p{
+  font-size: xx-large;
+  font-family:serif;
+  color:white
+  /* font-weight: bold; */
+}

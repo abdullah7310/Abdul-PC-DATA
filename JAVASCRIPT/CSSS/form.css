@@ -1,0 +1,49 @@
+body{
+  /* background-color: aqua; */
+
+}
+#outer{
+  height: 600px;;
+  width:800px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  
+  align-items:center;
+
+  justify-content:end;
+
+  background-color:red;
+  border:2px solid black;
+
+}
+.inner{
+  height: 500px;
+  width: 750px;
+  background-color: blueviolet;
+}
+h3{
+  text-align: center;
+}
+#main{
+  height: 450px;
+  width: 750px;
+  display:flex;
+
+
+  
+  
+}
+.first{
+  height: 450px;
+  width: 50%;
+  text-align: end;
+  margin-right: 10px;
+  
+  
+}
+.secont{
+  height: 450px;
+  width: 50%;
+  
+}

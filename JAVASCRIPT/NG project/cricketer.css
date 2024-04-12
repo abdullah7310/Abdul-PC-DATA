@@ -1,0 +1,13 @@
+.outer{
+  height: 95vh;
+  width: 40vw;
+  border: 2px solid;
+  margin: auto;
+}
+.main{
+  height: 30%;
+  width: 100%;
+  background-color: #fb4e71;
+
+
+}

@@ -1,0 +1,41 @@
+body{
+  background-image: url(./download.jpeg);
+  background-size: 100%;
+}
+form{
+  background-color: rgb(180, 98, 89,0.9);
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  padding:20px;
+}
+div{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  color: aliceblue;
+}
+div1{
+  margin-left: 193px;
+}
+div2{
+  margin-left:40px;
+}
+.two{
+  margin-left: 493px;
+}
+
+div3{
+  margin-left: 288px;
+}
+div4{
+  margin-left: 98px;
+}
+.three{
+  margin-left: 497px;
+}
+#submit{
+  margin-left: 480px;
+  width: 200px;
+}

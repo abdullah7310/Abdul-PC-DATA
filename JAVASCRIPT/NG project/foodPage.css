@@ -1,0 +1,53 @@
+.outer{
+  width: 60vw;
+  height: 85vh;
+  /* border:2px solid; */
+  background-image: url(https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303525.jpg?w=1380&t=st=1705491238~exp=1705491838~hmac=eb8942c53f4285232b6fbd5132b037ebbe2a2d4c0ccef5917fb041e7afcf3e2b
+  );
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+}
+.inner{
+    width: 100%;
+    height: 23%;
+    background-color: #f6c56e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    border-radius: 15px 15px 0px 0px;
+   
+}
+.main-data{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: self-start;
+  height: 95%;
+  margin: auto;
+  
+}
+.main-heading{
+  height: 26px;
+  font-size: larger;
+  font-weight: bold;
+  color: #323f4b;
+}
+p{
+  color:#323f4b;
+  font-family: serif;
+  
+}
+.para{
+  font-size: small;
+}
+button{
+  background-color: #ffffff;
+  padding:5px;
+  border-radius: 8px;
+}

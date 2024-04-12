@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="formTable.css">
+</head>
+<body>
+  <h1>Survey Form</h1>
+    <form >
+      <table>
+        <th>Let us know how we can improve freeCodeCamp</th>
+        <tr   class="padding">
+          <td class="name">
+            *Name: &nbsp;
+          </td>
+         
+          <td ><input type="text"></td>
+        </tr>  
+        <tr class="top-space"> 
+            <td class="email"> *Email: &nbsp;</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr class="top-space">
+          <td  class="age"><label for="age">*Age: &nbsp;</label></td>
+          <td> 
+            <input type="text" id="age"></td>
+        </tr>
+        <tr class="top-space">
+          <td class="student"> <label for="student">Which option best describes your current role? &nbsp;</label> </td>
+          <td>
+            <select name="" id="student">
+              <option value="student">student</option>
+              <option value="teacher">teacher</option>
+            </select>
+          </td>
+        </tr> 
+        <tr >
+          <div class="std">
+          <td class="freeCodeCamp">
+            <label for="freeCodeCamp">*How likely is that you would recommend &nbsp; <br> freeCodeCampto a friend &nbsp; </label>
+          </td>
+          <td ><ul>
+            <input type="radio" name="" id="freeCodeCamp"> Definitely <br>
+            <input type="radio" name="" id="freeCodeCamp"> May be <br>
+            <input type="radio" name="" id="freeCodeCamp"> Not sure <br>
+            </ul>
+          </td>
+        </div>
+        </tr>
+
+      </table>
+    </form>
+</body>
+</html>

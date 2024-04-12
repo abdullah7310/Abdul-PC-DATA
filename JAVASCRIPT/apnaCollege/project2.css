@@ -1,0 +1,28 @@
+#myId{
+    color:green
+}
+p:hover{
+    text-decoration: underline;
+}
+button:active{
+    background-color: rgb(7, 29, 1);
+    color:black;
+}
+.follow:hover:hover{
+           color: blueviolet;
+}
+p{
+    text-transform: uppercase;
+}
+p:hover{
+    color: blueviolet;
+    font-weight: bolder;
+}
+input[type=radio]:checked+label{
+    color:blue;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+input[type=radio]:hover+label{
+    text-decoration: line-through;
+}
